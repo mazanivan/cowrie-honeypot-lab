@@ -81,8 +81,9 @@ root::toor
 ./bin/cowrie stop
 ./bin/cowrie restart
 ```
-
+```
 **After every change in any cowrie file , you need to restart program **
+```
 ---
 
 ## 7) Logs

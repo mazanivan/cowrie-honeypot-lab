@@ -52,7 +52,7 @@ cp etc/userdb.example etc/userdb
 nano etc/userdb
 ```
 
-**Line format**
+**Line format**  
 ```
 username::password
 ```
@@ -60,11 +60,11 @@ username::password
 - second field = empty (leave as ::)  
 - third field = password  
 
-**Special symbols**
+**Special symbols**  
 - `*` → wildcard (matches any username)  
 - `x` → disabled account (invalid login)  
 
-**Example entries**
+**Example entries**  
 ```
 test::1234
 admin::password
@@ -81,9 +81,8 @@ root::toor
 ./bin/cowrie stop
 ./bin/cowrie restart
 ```
-```
-**After every change in any cowrie file , you need to restart program **
-```
+**After every change in any Cowrie file, you need to restart the program.**
+
 ---
 
 ## 7) Logs
@@ -113,4 +112,4 @@ ssh -p 2222 test@HONEYPOT_IP
 - Port 2222 already in use → change in etc/cowrie.cfg or stop conflicting service  
 - userdb not working → check that etc/userdb exists with correct syntax  
 - Missing Python packages → install system dev packages and rerun pip install -r requirements.txt  
-- Invalid passwords accepted → review * (wildcard) and x (disabled) rules in userdb
+- Invalid passwords accepted → review * (wildcard) and x (disabled) rules in userdb 

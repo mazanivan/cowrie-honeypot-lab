@@ -9,7 +9,8 @@ This repository contains my experiments with the [Cowrie SSH/Telnet honeypot](ht
 
 ## Documentation
 - [Experiment Notes](docs/EXPERIMENT.md) – detailed walkthrough of the honeypot test.
-- Planned: Setup guide and integration notes for ELK / Wazuh.
+- [Setup Guide](docs/SETUP.md)
+- Integration notes for ELK / Wazuh.
 
 ## Next Steps
 - Integrate Cowrie logs into ELK/Kibana dashboards.  

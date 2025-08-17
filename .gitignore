@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+cowrie-env/
+
+# Logs
+*.log
+var/log/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python packaging stuff (ak by si robil balíček)
+build/
+dist/
+*.egg-info/
+
